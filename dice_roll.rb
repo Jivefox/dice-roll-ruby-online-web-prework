@@ -1,4 +1,4 @@
 def roll
-  rand.(1..6).to_i
-  binding.pry
+ num = [1,2,3,4,5,6]
+ num.sample
 end
